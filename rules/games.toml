@@ -436,11 +436,6 @@ display_name = "ワールドダイスター 夢のステラリウム"
 regions = ["jp"]
 android = ["com.kms.worlddaistar"]
 
-[dancingline]
-display_name = "跳舞的线"
-regions = [regions = "any"]
-android = ["com.cmplay.dancingline"]
-
 [dancingline-mi]
 display_name = "跳舞的线-小米渠道服"
 regions = ["cn-mainland"]
