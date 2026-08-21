@@ -29,7 +29,7 @@ rules:
 
 将 `DIRECT` 替换为需要的策略或策略组。
 
-### 平台
+### 角色
 
 | 平台 | 内容 |
 | --- | --- |
@@ -43,10 +43,10 @@ rules:
 
 | 集合 | 内容 |
 | --- | --- |
-| `only-<region>` | 只面向该地区的应用 |
-| `contain-<region>` | 包含该地区的应用 |
-| `not-contain-<region>` | 有明确地区但不包含该地区的应用 |
-| `any` | 不限制地区的应用 |
+| `only-<region>` | 只面向该角色的应用 |
+| `contain-<region>` | 包含该角色的应用 |
+| `not-contain-<region>` | 有明确角色但不包含该角色的应用 |
+| `any` | 不限制角色的应用 |
 
 `any` 不表示全部应用。`only-<region>` 是 `contain-<region>` 的子集；两者使用不同策略时，应先放 `only-<region>`。
 
