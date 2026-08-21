@@ -52,6 +52,11 @@ display_name = "黄油相机"
 regions = ["cn-mainland"]
 android = ["com.by.butter.camera"]
 
+[riza-camera]
+display_name = "日杂相机"
+regions = ["cn-mainland"]
+android = ["com.mendon.riza"]
+
 [yitian-camera]
 display_name = "一甜相机"
 regions = ["cn-mainland"]
