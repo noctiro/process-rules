@@ -149,3 +149,13 @@ android = ["com.xuexiaoyi.xxy"]
 display_name = "斑马AI学"
 regions = ["cn-mainland"]
 android = ["com.fenbi.android.zenglish"]
+
+[waiyan-u-learning]
+display_name = "外研U学"
+regions = ["cn-mainland"]
+android = ["com.fltrp.organ.student"]
+
+[pep-spoken]
+display_name = "人教口语"
+regions = ["cn-mainland"]
+android = ["com.gumi.spokenenglish"]
