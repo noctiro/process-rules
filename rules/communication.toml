@@ -105,3 +105,8 @@ android = ["com.netease.mail"]
 display_name = "百度知道"
 regions = ["cn-mainland"]
 android = ["com.baidu.iknow"]
+
+[duoshan]
+display_name = "多闪"
+regions = ["cn-mainland"]
+android = ["my.maya.android"]
