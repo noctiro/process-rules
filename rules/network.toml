@@ -1,0 +1,13 @@
+version = 1
+
+[uu-accelerator]
+display_name = "UU加速器"
+regions = ["cn-mainland"]
+windows = ["uu_launcher.exe", "uu.exe", "uu_agent.exe", "uu_ball.exe", "uu_cloudsyn.exe", "uu_download.exe", "uu_neths_helper.exe", "uu_neth_helper.exe", "uu_render.exe", "uu_translate.exe"]
+android = ["com.netease.uu"]
+
+[uu-remote]
+display_name = "UU远程"
+regions = ["cn-mainland"]
+windows = ["GameViewer.exe", "GameViewerService.exe", "GameViewerServer.exe", "GameViewerLauncher.exe", "GameViewerHealthd.exe", "uuycmgr.exe", "uuyc-cli.exe"]
+android = ["com.netease.uuremote"]

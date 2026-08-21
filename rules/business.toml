@@ -1,0 +1,16 @@
+version = 1
+
+[tianyancha]
+display_name = "天眼查"
+regions = ["cn-mainland"]
+android = ["com.tianyancha.skyeye"]
+
+[qichacha]
+display_name = "企查查"
+regions = ["cn-mainland"]
+android = ["com.android.icredit"]
+
+[qixinbao]
+display_name = "启信宝"
+regions = ["cn-mainland"]
+android = ["com.bertadata.qxb"]

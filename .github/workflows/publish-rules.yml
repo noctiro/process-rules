@@ -1,0 +1,58 @@
+name: Publish rule providers
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - Cargo.lock
+      - Cargo.toml
+      - rust-toolchain.toml
+      - LICENSE
+      - src/**
+      - rules/**
+      - .github/generated-readme.md
+      - .github/workflows/publish-rules.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-rule-providers
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      PROCESS_RULES_SOURCE_COMMIT: ${{ github.sha }}
+    steps:
+      - name: Check out source branch
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Install Rust MSRV
+        run: rustup toolchain install 1.98.0 --profile minimal
+
+      - name: Select Rust MSRV
+        run: rustup default 1.98.0
+
+      - name: Generate providers
+        run: |
+          export CARGO_TARGET_DIR="$RUNNER_TEMP/process-rules-target"
+          publication_dir="$RUNNER_TEMP/process-rules-publication"
+          cargo run --locked --release -- build-all --out-dir "$publication_dir" --require-non-empty
+          cp .github/generated-readme.md "$publication_dir/README.md"
+          cp LICENSE "$publication_dir/LICENSE"
+
+      - name: Publish generated branch snapshot
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch --orphan generated
+          cp -R "$RUNNER_TEMP/process-rules-publication/." .
+          git add README.md LICENSE manifest.json mihomo
+          git commit -m "Publish rules from $GITHUB_SHA"
+          git push --force origin HEAD:generated

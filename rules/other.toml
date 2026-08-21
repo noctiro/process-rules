@@ -1,0 +1,21 @@
+version = 1
+
+# Copy this commented template and replace every value with verified data:
+#
+# [example-app]
+# display_name = "Example App"
+# regions = ["cn-mainland", "hk"]
+# windows = ["Example.exe"]
+# android = ["com.example.app"]
+# linux = ["example"]
+# macos = ["Example"]
+
+[moji-weather]
+display_name = "墨迹天气"
+regions = ["cn-mainland"]
+android = ["com.moji.mjweather"]
+
+[lceda-pro]
+display_name = "嘉立创EDA专业版"
+regions = ["cn-mainland"]
+windows = ["lceda-pro.exe"]

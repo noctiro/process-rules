@@ -1,0 +1,123 @@
+version = 1
+
+[baidu-netdisk]
+display_name = "百度网盘"
+regions = ["cn-mainland"]
+android = ["com.baidu.netdisk", "com.baidu.netdisk.youth"]
+
+[123pan]
+display_name = "123云盘"
+regions = ["cn-mainland"]
+windows = ["123pan.exe", "123pan-service-worker.exe", "123BackupProvider.exe", "123MountProvider.exe", "123SyncCloudProvider.exe", "123Tools.exe"]
+android = ["com.mfcloudcalculate.networkdisk"]
+
+[wps-office]
+display_name = "WPS Office"
+regions = ["cn-mainland"]
+android = ["cn.wps.moffice_eng"]
+linux = ["wps"]
+
+[tencent-docs]
+display_name = "腾讯文档"
+regions = ["cn-mainland"]
+android = ["com.tencent.docs"]
+
+[camscanner]
+display_name = "扫描全能王"
+regions = ["cn-mainland"]
+android = ["com.intsig.camscanner"]
+
+[aliyun-drive]
+display_name = "阿里云盘"
+regions = ["cn-mainland"]
+android = ["com.alicloud.databox", "com.alicloud.databox.tv"]
+
+[tianyi-cloud]
+display_name = "天翼云盘"
+regions = ["cn-mainland"]
+android = ["com.cn21.ecloud", "com.cn21.ecloud.tv"]
+
+[china-mobile-cloud]
+display_name = "中国移动云盘"
+regions = ["cn-mainland"]
+android = ["com.chinamobile.mcloud", "com.chinamobile.mcloud.tv"]
+
+[115]
+display_name = "115"
+regions = ["cn-mainland"]
+android = ["com.115.android", "com.ylmf.androidclient"]
+
+[qq-sync]
+display_name = "QQ同步助手"
+regions = ["cn-mainland"]
+android = ["com.tencent.qqpim"]
+
+[shimo-docs]
+display_name = "石墨文档"
+regions = ["cn-mainland"]
+android = ["chuxin.shimo.shimowendang"]
+
+[youdao-note]
+display_name = "有道云笔记"
+regions = ["cn-mainland"]
+android = ["com.youdao.note"]
+
+[yinxiang]
+display_name = "印象笔记"
+regions = ["cn-mainland"]
+android = ["com.yinxiang"]
+
+[mubu]
+display_name = "幕布"
+regions = ["cn-mainland"]
+android = ["com.mubu.app"]
+
+[dida-list]
+display_name = "滴答清单"
+regions = ["cn-mainland"]
+android = ["cn.ticktick.task"]
+
+[tomato-todo]
+display_name = "番茄ToDo"
+regions = ["cn-mainland"]
+android = ["com.plan.kot32.tomatotime"]
+
+[iflytek-voice-note]
+display_name = "讯飞语记"
+regions = ["cn-mainland"]
+android = ["com.iflytek.vflynote"]
+
+[nutstore]
+display_name = "坚果云"
+regions = ["cn-mainland"]
+android = ["nutstore.android"]
+
+[yike-album]
+display_name = "百度一刻相册"
+regions = ["cn-mainland"]
+android = ["com.baidu.youavideo"]
+
+[tencent-weiyun]
+display_name = "腾讯微云"
+regions = ["cn-mainland"]
+android = ["com.qq.qcloud"]
+
+[360-cloud]
+display_name = "360云盘"
+regions = ["cn-mainland"]
+android = ["com.qihoo.cloud"]
+
+[tencent-gallery-manager]
+display_name = "腾讯相册管家"
+regions = ["cn-mainland"]
+android = ["com.tencent.gallerymanager"]
+
+[tencent-files]
+display_name = "腾讯文件"
+regions = ["cn-mainland"]
+android = ["com.tencent.qqfile"]
+
+[officeplus]
+display_name = "微软OfficePLUS"
+regions = ["cn-mainland"]
+windows = ["MSOfficePLUSService.exe"]

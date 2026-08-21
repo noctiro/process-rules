@@ -1,0 +1,96 @@
+version = 1
+
+[ping-an-auto-owner]
+display_name = "平安好车主"
+regions = ["cn-mainland"]
+android = ["com.pingan.carowner"]
+
+[dongchedi]
+display_name = "懂车帝"
+regions = ["cn-mainland"]
+android = ["com.ss.android.auto"]
+
+[zeekr]
+display_name = "极氪"
+regions = ["cn-mainland"]
+android = ["com.zeekrlife.mobile"]
+
+[nio]
+display_name = "蔚来"
+regions = ["cn-mainland"]
+android = ["cn.com.weilaihui3"]
+
+[li-auto]
+display_name = "理想汽车"
+regions = ["cn-mainland"]
+android = ["com.chehejia.oc.m01"]
+
+[aito]
+display_name = "AITO"
+regions = ["cn-mainland"]
+android = ["app.huawei.auto"]
+
+[fengon]
+display_name = "丰云行"
+regions = ["cn-mainland"]
+android = ["com.yongyou"]
+
+[faw-volkswagen]
+display_name = "一汽大众"
+regions = ["cn-mainland"]
+android = ["com.timanetworks.android.faw.vw.aftermarket.release"]
+
+[beijing-hyundai]
+display_name = "北京现代"
+regions = ["cn-mainland"]
+android = ["com.wrd"]
+
+[baidu-carlife]
+display_name = "百度CarLife+"
+regions = ["cn-mainland"]
+android = ["com.baidu.carlife"]
+
+[tuhu]
+display_name = "途虎养车"
+regions = ["cn-mainland"]
+android = ["cn.TuHu.android"]
+
+[autohome]
+display_name = "汽车之家"
+regions = ["cn-mainland"]
+android = ["com.cubic.autohome"]
+
+[yiche]
+display_name = "易车"
+regions = ["cn-mainland"]
+android = ["com.yiche.autoeasy"]
+
+[guazi]
+display_name = "瓜子二手车"
+regions = ["cn-mainland"]
+android = ["com.ganji.android.haoche_c"]
+
+[teld]
+display_name = "特来电"
+regions = ["cn-mainland"]
+android = ["com.teld.app"]
+
+[star-charge]
+display_name = "星星充电"
+regions = ["cn-mainland"]
+android = ["com.wanbangauto.chargepile"]
+
+[e-charging]
+display_name = "e充电"
+regions = ["cn-mainland"]
+android = ["com.sgcc.evs.echarge"]
+
+[xpeng]
+display_name = "小鹏汽车"
+regions = ["cn-mainland"]
+android = ["com.xiaopeng.mycarinfo"]
+
+[byd]
+display_name = "比亚迪"
+regions = ["cn-mainland"]
+android = ["com.byd.aeri.caranywhere"]

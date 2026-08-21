@@ -1,0 +1,92 @@
+version = 1
+
+[iflytek-input-method]
+display_name = "讯飞输入法"
+regions = ["cn-mainland"]
+android = ["com.iflytek.inputmethod"]
+
+[baidu-input-method]
+display_name = "百度输入法"
+regions = ["cn-mainland"]
+android = ["com.baidu.input"]
+
+[sogou-input-method]
+display_name = "搜狗输入法"
+regions = ["cn-mainland"]
+android = ["com.sohu.inputmethod.sogou"]
+
+[tencent-app-store]
+display_name = "腾讯应用宝"
+regions = ["cn-mainland"]
+android = ["com.tencent.android.qqdownloader"]
+
+[xiaomi-app-store]
+display_name = "小米应用商店"
+regions = ["cn-mainland"]
+android = ["com.xiaomi.market"]
+
+[huawei-appgallery]
+display_name = "华为应用市场"
+regions = ["cn-mainland"]
+windows = ["AppGallery.exe", "AppGalleryAMS.exe", "AppGalleryService.exe"]
+android = ["com.huawei.appmarket"]
+
+[huawei-hmscore]
+display_name = "HMS Core"
+regions = ["cn-mainland"]
+windows = ["HMSCore.exe", "HMSCoreContainer.exe", "HMSCoreNotice.exe", "HMSCoreService.exe", "HMSCoreSettings.exe", "HMSCoreUI.exe", "HUAWEIAccount.exe"]
+
+[huawei-hisuite]
+display_name = "华为手机助手"
+regions = ["cn-mainland"]
+windows = ["HiSuite.exe", "HuaweiHiSuiteService.exe", "HuaweiHiSuiteService64.exe"]
+
+[huawei-pcmanager]
+display_name = "华为电脑管家"
+regions = ["cn-mainland"]
+windows = ["PCManager.exe", "HwMdcCenter.exe", "HwMdcCenterHelper.exe", "HwMdcUI.exe", "MateBookService.exe", "HiConnectivityService.exe", "HwMirror.exe", "HwMirrorDragDropWnd.exe", "HwShareUI.exe", "HwTransferStation.exe", "HwSmartAudio.exe", "HwExScreen.exe", "HwSettings.exe", "HwSoundUI.exe", "HwFeaPromoUI.exe", "HwTrayWndHelper.exe", "HwPhotoViewer.exe", "HarmonyEcology.exe", "HwPCModem.exe"]
+
+[huawei-personal-center]
+display_name = "华为个人中心"
+regions = ["cn-mainland"]
+windows = ["PersonalCenterForWindowsCs.exe"]
+
+[oppo-app-store]
+display_name = "OPPO软件商店"
+regions = ["cn-mainland"]
+android = ["com.oppo.market"]
+
+[vivo-app-store]
+display_name = "vivo应用商店"
+regions = ["cn-mainland"]
+android = ["com.bbk.appstore"]
+
+[qihoo-mobile-assistant]
+display_name = "360手机助手"
+regions = ["cn-mainland"]
+android = ["com.qihoo.appstore"]
+
+[mijia]
+display_name = "米家"
+regions = ["cn-mainland"]
+android = ["com.xiaomi.smarthome"]
+
+[xiaoyi-home]
+display_name = "小翼管家"
+regions = ["cn-mainland"]
+android = ["com.yueme.itv"]
+
+[huawei-ai-life]
+display_name = "华为智慧生活"
+regions = ["cn-mainland"]
+android = ["com.huawei.smarthome"]
+
+[xiaodu]
+display_name = "小度"
+regions = ["cn-mainland"]
+android = ["com.baidu.duer.superapp"]
+
+[ezviz]
+display_name = "萤石云视频"
+regions = ["cn-mainland"]
+android = ["com.videogo"]

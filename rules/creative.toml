@@ -1,0 +1,73 @@
+version = 1
+
+[meitu]
+display_name = "美图秀秀"
+regions = ["cn-mainland"]
+android = ["com.mt.mtxx.mtxx"]
+
+[jianying]
+display_name = "剪映"
+regions = ["cn-mainland"]
+windows = ["JianyingPro.exe"]
+android = ["com.lemon.lv"]
+
+[bcut]
+display_name = "必剪"
+regions = ["cn-mainland"]
+windows = ["BCUT.exe", "BCUTGuard.exe"]
+android = ["com.bilibili.studio"]
+
+[beauty-camera]
+display_name = "美颜相机"
+regions = ["cn-mainland"]
+android = ["com.meitu.meiyancamera"]
+
+[xingtu]
+display_name = "醒图"
+regions = ["cn-mainland"]
+android = ["com.ss.android.picshow"]
+
+[b612]
+display_name = "B612咔叽"
+regions = ["cn-mainland"]
+android = ["com.campmobile.snowcamera"]
+
+[qingyan-camera]
+display_name = "轻颜相机"
+regions = ["cn-mainland"]
+android = ["com.gorgeous.lite"]
+
+[wuta-camera]
+display_name = "无他相机"
+regions = ["cn-mainland"]
+android = ["com.benqu.wuta"]
+
+[faceu]
+display_name = "Faceu激萌"
+regions = ["cn-mainland"]
+android = ["com.lemon.faceu"]
+
+[butter-camera]
+display_name = "黄油相机"
+regions = ["cn-mainland"]
+android = ["com.by.butter.camera"]
+
+[yitian-camera]
+display_name = "一甜相机"
+regions = ["cn-mainland"]
+android = ["com.kwai.m2u"]
+
+[kuaiying]
+display_name = "快影"
+regions = ["cn-mainland"]
+android = ["com.kwai.videoeditor"]
+
+[xiaoying]
+display_name = "小影"
+regions = ["cn-mainland"]
+android = ["com.quvideo.xiaoying"]
+
+[watermark-camera]
+display_name = "水印相机"
+regions = ["cn-mainland"]
+android = ["com.tencent.zebra"]

@@ -1,0 +1,21 @@
+version = 1
+
+[anjuke]
+display_name = "安居客"
+regions = ["cn-mainland"]
+android = ["com.anjuke.android.app"]
+
+[beike]
+display_name = "贝壳找房"
+regions = ["cn-mainland"]
+android = ["com.lianjia.beike"]
+
+[lianjia]
+display_name = "链家"
+regions = ["cn-mainland"]
+android = ["com.homelink.android"]
+
+[xingfuli]
+display_name = "幸福里"
+regions = ["cn-mainland"]
+android = ["com.f100.android"]

@@ -1,0 +1,36 @@
+version = 1
+
+[boss-zhipin]
+display_name = "BOSS直聘"
+regions = ["cn-mainland"]
+android = ["com.hpbr.bosszhipin"]
+
+[zhaopin]
+display_name = "智联招聘"
+regions = ["cn-mainland"]
+android = ["com.zhaopin.social"]
+
+[51job]
+display_name = "前程无忧51Job"
+regions = ["cn-mainland"]
+android = ["com.job.android"]
+
+[liepin]
+display_name = "猎聘"
+regions = ["cn-mainland"]
+android = ["com.lietou.mishu"]
+
+[maimai]
+display_name = "脉脉"
+regions = ["cn-mainland"]
+android = ["com.taou.maimai"]
+
+[shixiseng]
+display_name = "实习僧"
+regions = ["cn-mainland"]
+android = ["com.shixiseng.activity"]
+
+[jianzhi-mao]
+display_name = "兼职猫"
+regions = ["cn-mainland"]
+android = ["com.jianzhi.jianzhimao"]

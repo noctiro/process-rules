@@ -1,0 +1,136 @@
+version = 1
+
+[amap]
+display_name = "高德地图"
+regions = ["cn-mainland"]
+android = ["com.autonavi.minimap"]
+
+[baidu-maps]
+display_name = "百度地图"
+regions = ["cn-mainland"]
+android = ["com.baidu.BaiduMap"]
+
+[tencent-maps]
+display_name = "腾讯地图"
+regions = ["cn-mainland"]
+android = ["com.tencent.map"]
+
+[google-maps]
+display_name = "Google Maps"
+regions = { except = ["cn-mainland"] }
+android = ["com.google.android.apps.maps"]
+
+[didi]
+display_name = "滴滴出行"
+regions = ["cn-mainland"]
+android = ["com.sdu.didi.psnger"]
+
+[hello]
+display_name = "哈啰"
+regions = ["cn-mainland"]
+android = ["com.jingyao.easybike"]
+
+[ctrip]
+display_name = "携程旅行"
+regions = ["cn-mainland"]
+android = ["ctrip.android.view"]
+
+[fliggy]
+display_name = "飞猪旅行"
+regions = ["cn-mainland"]
+android = ["com.taobao.trip"]
+
+[qunar]
+display_name = "去哪儿旅行"
+regions = ["cn-mainland"]
+android = ["com.Qunar"]
+
+[railway-12306]
+display_name = "铁路12306"
+regions = ["cn-mainland"]
+android = ["com.MobileTicket"]
+
+[tongcheng-travel]
+display_name = "同程旅行"
+regions = ["cn-mainland"]
+android = ["com.tongcheng.android"]
+
+[umetrip]
+display_name = "航旅纵横"
+regions = ["cn-mainland"]
+android = ["com.umetrip.android.msky.app"]
+
+[flight-manager]
+display_name = "航班管家"
+regions = ["cn-mainland"]
+android = ["com.flightmanager.view"]
+
+[t3-travel]
+display_name = "T3出行"
+regions = ["cn-mainland"]
+android = ["com.t3go.passenger"]
+
+[caocao-travel]
+display_name = "曹操出行"
+regions = ["cn-mainland"]
+android = ["cn.caocaokeji.user"]
+
+[huaxiaozhu]
+display_name = "花小猪打车"
+regions = ["cn-mainland"]
+android = ["com.huaxiaozhu.rider"]
+
+[dida]
+display_name = "嘀嗒出行"
+regions = ["cn-mainland"]
+android = ["com.didapinche.booking"]
+
+[saic-mobility]
+display_name = "享道出行"
+regions = ["cn-mainland"]
+android = ["com.saicmobility.user"]
+
+[shouqi-limousine]
+display_name = "首汽约车"
+regions = ["cn-mainland"]
+android = ["com.ichinait.gbpassenger"]
+
+[car-inc]
+display_name = "神州租车"
+regions = ["cn-mainland"]
+android = ["com.szzc"]
+
+[ehi]
+display_name = "一嗨租车"
+regions = ["cn-mainland"]
+android = ["com.ehai"]
+
+[gaotie-guan-jia]
+display_name = "高铁管家"
+regions = ["cn-mainland"]
+android = ["com.gtgj.view"]
+
+[my-bus]
+display_name = "掌上公交"
+regions = ["cn-mainland"]
+android = ["com.mygolbs.mybus"]
+
+[chelaile]
+display_name = "车来了"
+regions = ["cn-mainland"]
+android = ["com.ygkj.chelaile.standard"]
+
+[bus-steward]
+display_name = "巴士管家"
+regions = ["cn-mainland"]
+android = ["com.chebada"]
+
+[metro-daduhui]
+display_name = "Metro大都会"
+regions = ["cn-mainland"]
+android = ["com.app.shanghai.metro"]
+
+[yitongxing]
+display_name = "亿通行"
+regions = ["cn-mainland"]
+android = ["com.ruubypay.yitongxing"]

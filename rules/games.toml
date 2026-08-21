@@ -1,0 +1,437 @@
+version = 1
+
+[honor-of-kings]
+display_name = "王者荣耀"
+regions = ["cn-mainland"]
+android = ["com.tencent.tmgp.sgame"]
+
+[peacekeeper-elite]
+display_name = "和平精英"
+regions = ["cn-mainland"]
+android = ["com.tencent.tmgp.pubgmhd"]
+
+[delta-force]
+display_name = "三角洲行动"
+regions = ["cn-mainland"]
+android = ["com.tencent.tmgp.dfm"]
+
+[crossfire-mobile]
+display_name = "穿越火线手游"
+regions = ["cn-mainland"]
+android = ["com.tencent.tmgp.cf"]
+
+[naruto-mobile]
+display_name = "火影忍者手游"
+regions = ["cn-mainland"]
+android = ["com.tencent.tmgp.hyrz"]
+
+[dungeon-fighter-mobile]
+display_name = "地下城与勇士起源"
+regions = ["cn-mainland"]
+android = ["com.tencent.tmgp.dnf"]
+
+[speed-mobile]
+display_name = "QQ飞车手游"
+regions = ["cn-mainland"]
+android = ["com.tencent.tmgp.speedmobile"]
+
+[dark-zone-breakout]
+display_name = "暗区突围"
+regions = ["cn-mainland"]
+android = ["com.tencent.mf.uam"]
+
+[egg-party]
+display_name = "蛋仔派对"
+regions = ["cn-mainland"]
+android = ["com.netease.party"]
+
+[identity-v]
+display_name = "第五人格"
+regions = ["cn-mainland"]
+android = ["com.netease.dwrg"]
+
+[onmyoji]
+display_name = "阴阳师"
+regions = ["cn-mainland"]
+android = ["com.netease.onmyoji"]
+
+[naraka-mobile]
+display_name = "永劫无间手游"
+regions = ["cn-mainland"]
+android = ["com.netease.ma84"]
+
+[justice-mobile]
+display_name = "逆水寒手游"
+regions = ["cn-mainland"]
+android = ["com.netease.nshm"]
+
+[minecraft-cn]
+display_name = "我的世界中国版"
+regions = ["cn-mainland"]
+android = ["com.netease.mc.mi"]
+
+[wuthering-waves-cn]
+display_name = "鸣潮"
+regions = ["cn-mainland"]
+android = ["com.kurogame.wutheringwaves"]
+
+[wuthering-waves-global]
+display_name = "Wuthering Waves"
+regions = { except = ["cn-mainland"] }
+android = ["com.kurogame.wutheringwaves.global"]
+
+[genshin-impact-cn]
+display_name = "原神"
+regions = ["cn-mainland"]
+android = ["com.miHoYo.Yuanshen"]
+
+[genshin-impact-global]
+display_name = "Genshin Impact"
+regions = { except = ["cn-mainland"] }
+android = ["com.miHoYo.GenshinImpact"]
+
+[honkai-star-rail-cn]
+display_name = "崩坏：星穹铁道"
+regions = ["cn-mainland"]
+android = ["com.miHoYo.hkrpg"]
+
+[honkai-star-rail-global]
+display_name = "Honkai: Star Rail"
+regions = { except = ["cn-mainland"] }
+android = ["com.HoYoverse.hkrpgoversea"]
+
+[zenless-zone-zero-cn]
+display_name = "绝区零"
+regions = ["cn-mainland"]
+android = ["com.miHoYo.Nap"]
+
+[zenless-zone-zero-global]
+display_name = "Zenless Zone Zero"
+regions = { except = ["cn-mainland"] }
+android = ["com.HoYoverse.Nap"]
+
+[honkai-impact-3-cn]
+display_name = "崩坏3"
+regions = ["cn-mainland"]
+android = ["com.miHoYo.bh3"]
+
+[honkai-impact-3-global]
+display_name = "Honkai Impact 3rd"
+regions = { except = ["cn-mainland"] }
+android = ["com.miHoYo.bh3global"]
+
+[honkai-impact-3-asia]
+display_name = "Honkai Impact 3"
+regions = { except = ["cn-mainland"] }
+android = ["com.miHoYo.bh3oversea"]
+
+[honkai-impact-3-hmt]
+display_name = "崩壞3rd"
+regions = ["hk", "mo", "tw"]
+android = ["com.miHoYo.bh3tw"]
+
+[honkai-impact-3-jp]
+display_name = "崩壊3rd"
+regions = ["jp"]
+android = ["com.miHoYo.bh3rdJP"]
+
+[honkai-impact-3-kr]
+display_name = "붕괴3rd"
+regions = ["kr"]
+android = ["com.miHoYo.bh3korea"]
+
+[tears-of-themis-cn]
+display_name = "未定事件簿"
+regions = ["cn-mainland"]
+android = ["com.miHoYo.wd"]
+
+[tears-of-themis-global]
+display_name = "Tears of Themis"
+regions = { except = ["cn-mainland"] }
+android = ["com.miHoYo.tot.glb"]
+
+[tears-of-themis-hmt]
+display_name = "未定事件簿"
+regions = ["hk", "mo", "tw"]
+android = ["com.miHoYo.tot.cht"]
+
+[honkai-gakuen-2-cn]
+display_name = "崩坏学园2"
+regions = ["cn-mainland"]
+android = ["com.miHoYo.HSoDv2Original"]
+
+[honkai-gakuen-2-jp]
+display_name = "崩壊学園"
+regions = ["jp"]
+android = ["com.miHoYo.HSoDv2JPOriginalEx"]
+
+[genshin-impact-cloud-cn]
+display_name = "云·原神"
+regions = ["cn-mainland"]
+windows = ["Genshin Impact Cloud Game.exe"]
+android = ["com.miHoYo.cloudgames.ys"]
+
+[genshin-impact-cloud-global]
+display_name = "Genshin Impact · Cloud"
+regions = { except = ["cn-mainland"] }
+android = ["com.hoyoverse.cloudgames.GenshinImpact"]
+
+[honkai-star-rail-cloud-cn]
+display_name = "云·星穹铁道"
+regions = ["cn-mainland"]
+android = ["com.miHoYo.cloudgames.hkrpg"]
+
+[zenless-zone-zero-cloud-cn]
+display_name = "云·绝区零"
+regions = ["cn-mainland"]
+android = ["com.miHoYo.cloudgames.Nap"]
+
+[arknights-cn]
+display_name = "明日方舟"
+regions = ["cn-mainland"]
+android = ["com.hypergryph.arknights"]
+
+[arknights-global]
+display_name = "Arknights"
+regions = { except = ["cn-mainland", "hk", "jp", "kr", "mo", "tw"] }
+android = ["com.YoStarEN.Arknights"]
+
+[arknights-jp]
+display_name = "アークナイツ"
+regions = ["jp"]
+android = ["com.YoStarJP.Arknights"]
+
+[arknights-kr]
+display_name = "명일방주"
+regions = ["kr"]
+android = ["com.YoStarKR.Arknights"]
+
+[arknights-hmt]
+display_name = "明日方舟"
+regions = ["hk", "mo", "tw"]
+android = ["tw.txwy.and.arknights"]
+
+[azur-lane-cn]
+display_name = "碧蓝航线"
+regions = ["cn-mainland"]
+android = ["com.bilibili.azurlane"]
+
+[azur-lane-global]
+display_name = "Azur Lane"
+regions = { except = ["cn-mainland", "hk", "jp", "kr", "mo", "tw"] }
+android = ["com.YoStarEN.AzurLane"]
+
+[azur-lane-jp]
+display_name = "アズールレーン"
+regions = ["jp"]
+android = ["com.YoStarJP.AzurLane"]
+
+[azur-lane-hmt]
+display_name = "碧藍航線"
+regions = ["hk", "mo", "tw"]
+android = ["com.hkmanjuu.azurlane.gp"]
+
+[azur-lane-kr]
+display_name = "벽람항로"
+regions = ["kr"]
+android = ["kr.txwy.and.blhx"]
+
+[blue-archive-cn]
+display_name = "蔚蓝档案"
+regions = ["cn-mainland"]
+android = ["com.RoamingStar.BlueArchive"]
+
+[blue-archive-global]
+display_name = "Blue Archive"
+regions = { except = ["cn-mainland", "jp"] }
+android = ["com.nexon.bluearchive"]
+
+[blue-archive-jp]
+display_name = "ブルーアーカイブ"
+regions = ["jp"]
+android = ["com.YostarJP.BlueArchive"]
+
+[punishing-gray-raven-cn]
+display_name = "战双帕弥什"
+regions = ["cn-mainland"]
+android = ["com.kurogame.haru.hero"]
+
+[punishing-gray-raven-global]
+display_name = "Punishing: Gray Raven"
+regions = { except = ["cn-mainland", "hk", "jp", "kr", "mo", "tw"] }
+android = ["com.kurogame.gplay.punishing.grayraven.en"]
+
+[punishing-gray-raven-kr]
+display_name = "퍼니싱: 그레이 레이븐"
+regions = ["kr"]
+android = ["com.herogame.gplay.punishing.grayraven.kr"]
+
+[punishing-gray-raven-jp]
+display_name = "パニシング：グレイレイヴン"
+regions = ["jp"]
+android = ["com.herogame.gplay.punishing.grayraven.jp"]
+
+[punishing-gray-raven-hmt]
+display_name = "戰雙帕彌什"
+regions = ["hk", "mo", "tw"]
+android = ["com.herogame.gplay.punishing.grayraven.tw"]
+
+[snowbreak-cn]
+display_name = "尘白禁区"
+regions = ["cn-mainland"]
+android = ["com.dragonli.projectsnow.lhm"]
+
+[snowbreak-global]
+display_name = "Snowbreak: Containment Zone"
+regions = { except = ["cn-mainland"] }
+android = ["com.seasun.snowbreak.google"]
+
+[reverse-1999-cn]
+display_name = "重返未来：1999"
+regions = ["cn-mainland"]
+android = ["com.shenlan.m.reverse1999"]
+
+[reverse-1999-global]
+display_name = "Reverse: 1999"
+regions = { except = ["cn-mainland"] }
+android = ["com.bluepoch.m.en.reverse1999"]
+
+[love-and-deepspace-cn]
+display_name = "恋与深空"
+regions = ["cn-mainland"]
+android = ["com.papegames.lysk.cn"]
+
+[love-and-deepspace-global]
+display_name = "Love and Deepspace"
+regions = { except = ["cn-mainland"] }
+android = ["com.papegames.lysk.en"]
+
+[infinity-nikki-global]
+display_name = "Infinity Nikki"
+regions = { except = ["cn-mainland"] }
+android = ["com.infoldgames.infinitynikkien"]
+
+[fate-grand-order-cn]
+display_name = "命运-冠位指定"
+regions = ["cn-mainland"]
+android = ["com.bilibili.fatego"]
+
+[fate-grand-order-jp]
+display_name = "Fate/Grand Order"
+regions = ["jp"]
+android = ["com.aniplex.fategrandorder"]
+
+[fate-grand-order-en]
+display_name = "Fate/Grand Order (English)"
+regions = { except = ["cn-mainland", "hk", "jp", "kr", "mo", "tw"] }
+android = ["com.aniplex.fategrandorder.en"]
+
+[fate-grand-order-hmt]
+display_name = "Fate/Grand Order"
+regions = ["hk", "mo", "tw"]
+android = ["com.xiaomeng.fategrandorder"]
+
+[fate-grand-order-kr]
+display_name = "페이트/그랜드 오더"
+regions = ["kr"]
+android = ["com.netmarble.fgok"]
+
+[nikke-global]
+display_name = "GODDESS OF VICTORY: NIKKE"
+regions = { except = ["cn-mainland"] }
+android = ["com.proximabeta.nikke"]
+
+[aether-gazer-cn]
+display_name = "深空之眼"
+regions = ["cn-mainland"]
+android = ["com.yongshi.tenojo.ys"]
+
+[aether-gazer-global]
+display_name = "Aether Gazer"
+regions = { except = ["cn-mainland", "jp"] }
+android = ["com.YoStarEN.AetherGazer"]
+
+[aether-gazer-jp]
+display_name = "エーテルゲイザー"
+regions = ["jp"]
+android = ["com.YoStar.AetherGazer"]
+
+[path-to-nowhere-cn]
+display_name = "无期迷途"
+regions = ["cn-mainland"]
+android = ["com.zy.wqmt.cn"]
+
+[path-to-nowhere-global]
+display_name = "Path to Nowhere"
+regions = { except = ["cn-mainland"] }
+android = ["com.zy.wqmt.global"]
+
+[girls-frontline-cn]
+display_name = "少女前线"
+regions = ["cn-mainland"]
+android = ["com.digitalsky.girlsfrontline.cn"]
+
+[girls-frontline-global]
+display_name = "Girls' Frontline"
+regions = { except = ["cn-mainland"] }
+android = ["com.sunborn.girlsfrontline.en"]
+
+[neural-cloud-cn]
+display_name = "少女前线：云图计划"
+regions = ["cn-mainland"]
+android = ["com.sunborn.neuralcloud.cn"]
+
+[neural-cloud-global]
+display_name = "Neural Cloud"
+regions = { except = ["cn-mainland"] }
+android = ["com.sunborn.neuralcloud.en"]
+
+[project-sekai-jp]
+display_name = "プロジェクトセカイ"
+regions = ["jp"]
+android = ["com.sega.pjsekai"]
+
+[project-sekai-global]
+display_name = "HATSUNE MIKU: COLORFUL STAGE!"
+regions = { except = ["cn-mainland", "jp"] }
+android = ["com.sega.ColorfulStage.en"]
+
+[bang-dream-jp]
+display_name = "バンドリ！ガールズバンドパーティ！"
+regions = ["jp"]
+android = ["jp.co.craftegg.band"]
+
+[bang-dream-global]
+display_name = "BanG Dream! Girls Band Party!"
+regions = { except = ["cn-mainland", "jp"] }
+android = ["com.bushiroad.en.bangdreamgbp"]
+
+[ensemble-stars-music-jp]
+display_name = "あんさんぶるスターズ！！Music"
+regions = ["jp"]
+android = ["jp.co.happyelements.boysm"]
+
+[ensemble-stars-music-global]
+display_name = "Ensemble Stars Music"
+regions = { except = ["cn-mainland", "jp"] }
+android = ["com.happyelements.es2.en.gp"]
+
+[rhythm-master-cn]
+display_name = "节奏大师"
+regions = ["cn-mainland"]
+android = ["com.tencent.game.rhythmmaster"]
+
+[qq-dance-mobile-cn]
+display_name = "QQ炫舞手游"
+regions = ["cn-mainland"]
+android = ["com.tencent.tmgp.qqx5"]
+
+[gakuen-idolmaster-jp]
+display_name = "学園アイドルマスター"
+regions = ["jp"]
+android = ["com.bandainamcoent.idolmaster_gakuen"]
+
+[world-dai-star-jp]
+display_name = "ワールドダイスター 夢のステラリウム"
+regions = ["jp"]
+android = ["com.kms.worlddaistar"]

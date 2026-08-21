@@ -1,0 +1,57 @@
+version = 1
+
+[chatgpt]
+display_name = "ChatGPT"
+regions = ["ad", "ae", "af", "ag", "al", "am", "ao", "ar", "at", "au", "aw", "ax", "az", "ba", "bb", "bd", "be", "bf", "bg", "bh", "bi", "bj", "bl", "bm", "bn", "bo", "br", "bs", "bt", "bw", "bz", "ca", "cd", "cf", "cg", "ch", "ci", "cl", "cm", "co", "cr", "cv", "cy", "cz", "de", "dj", "dk", "dm", "do", "dz", "ec", "ee", "eg", "er", "es", "et", "fi", "fj", "fm", "fo", "fr", "ga", "gb", "gd", "ge", "gf", "gh", "gl", "gm", "gn", "gp", "gq", "gr", "gt", "gw", "gy", "hn", "hr", "ht", "hu", "id", "ie", "il", "in", "iq", "is", "it", "jm", "jo", "jp", "ke", "kg", "kh", "ki", "km", "kn", "kr", "kw", "ky", "kz", "la", "lb", "lc", "li", "lk", "lr", "ls", "lt", "lu", "lv", "ly", "ma", "mc", "md", "me", "mf", "mg", "mh", "mk", "ml", "mm", "mn", "mq", "mr", "mt", "mu", "mv", "mw", "mx", "my", "mz", "na", "nc", "ne", "ng", "ni", "nl", "no", "np", "nr", "nz", "om", "pa", "pe", "pf", "pg", "ph", "pk", "pl", "pm", "ps", "pt", "py", "qa", "re", "ro", "rw", "sa", "sb", "sc", "sd", "se", "sg", "sh", "si", "sk", "sl", "sm", "sn", "so", "sr", "ss", "st", "sv", "sz", "td", "tf", "tg", "th", "tj", "tl", "tm", "tn", "to", "tr", "tt", "tv", "tw", "tz", "ua", "ug", "us", "uy", "uz", "va", "vc", "vn", "vu", "wf", "ye", "za", "zm", "zw"]
+android = ["com.openai.chatgpt"]
+
+[claude]
+display_name = "Claude"
+regions = ["ad", "ae", "ag", "al", "am", "ao", "ar", "at", "au", "az", "ba", "bb", "bd", "be", "bf", "bg", "bh", "bi", "bj", "bn", "bo", "br", "bs", "bt", "bw", "bz", "ca", "cf", "cg", "ch", "ci", "cl", "cm", "co", "cr", "cv", "cy", "cz", "de", "dj", "dk", "dm", "do", "dz", "ec", "ee", "eg", "er", "es", "et", "fi", "fj", "fm", "fr", "ga", "gb", "gd", "ge", "gh", "gm", "gn", "gq", "gr", "gt", "gw", "gy", "hn", "hr", "ht", "hu", "id", "ie", "il", "in", "iq", "is", "it", "jm", "jo", "jp", "ke", "kg", "kh", "ki", "km", "kn", "kr", "kw", "kz", "la", "lb", "lc", "li", "lk", "lr", "ls", "lt", "lu", "lv", "ly", "ma", "mc", "md", "me", "mg", "mh", "mk", "ml", "mn", "mr", "mt", "mu", "mv", "mw", "mx", "my", "mz", "na", "ne", "ng", "ni", "nl", "no", "np", "nr", "nz", "om", "pa", "pe", "pg", "ph", "pk", "pl", "ps", "pt", "py", "qa", "ro", "rw", "sa", "sb", "sc", "sd", "se", "sg", "si", "sk", "sl", "sm", "sn", "so", "sr", "ss", "st", "sv", "sz", "td", "tg", "th", "tj", "tl", "tm", "tn", "to", "tr", "tt", "tv", "tw", "tz", "ua", "ug", "us", "uy", "uz", "va", "vc", "vn", "vu", "za", "zm", "zw"]
+android = ["com.anthropic.claude"]
+
+[gemini]
+display_name = "Google Gemini"
+regions = ["ad", "ae", "ag", "ai", "al", "am", "ao", "ar", "as", "at", "au", "aw", "ax", "az", "ba", "bd", "be", "bf", "bg", "bh", "bj", "bl", "bm", "bo", "bq", "br", "bs", "bw", "bz", "ca", "cd", "cg", "ch", "ci", "cl", "cm", "co", "cr", "cv", "cw", "cy", "cz", "de", "dj", "dk", "dm", "do", "dz", "ec", "ee", "eg", "er", "es", "fi", "fj", "fk", "fm", "fo", "fr", "ga", "gb", "gd", "ge", "gf", "gg", "gh", "gi", "gl", "gm", "gn", "gp", "gr", "gt", "gu", "gw", "hk", "hn", "hr", "ht", "hu", "id", "ie", "il", "im", "in", "io", "iq", "is", "it", "je", "jm", "jo", "jp", "ke", "kg", "kh", "km", "kn", "kr", "kw", "ky", "kz", "la", "lb", "lc", "li", "lk", "lr", "lt", "lu", "lv", "ly", "ma", "mc", "md", "mf", "mh", "mk", "ml", "mm", "mo", "mp", "mq", "ms", "mt", "mu", "mv", "mx", "my", "mz", "na", "nc", "ne", "ng", "ni", "nl", "no", "np", "nz", "om", "pa", "pe", "pf", "pg", "ph", "pk", "pl", "pm", "pn", "pr", "pt", "pw", "py", "qa", "re", "ro", "rw", "sa", "sb", "sc", "sd", "se", "sg", "si", "sj", "sk", "sl", "sm", "sn", "so", "sr", "st", "sv", "sx", "tc", "td", "tf", "tg", "th", "tj", "tm", "tn", "to", "tr", "tt", "tw", "tz", "ua", "ug", "us", "uy", "uz", "va", "ve", "vg", "vi", "vn", "vu", "wf", "ws", "ye", "yt", "za", "zm", "zw"]
+android = ["com.google.android.apps.bard"]
+
+[deepseek]
+display_name = "DeepSeek"
+regions = ["cn-mainland"]
+android = ["com.deepseek.chat"]
+
+[qianwen]
+display_name = "千问"
+regions = ["cn-mainland"]
+android = ["com.aliyun.tongyi"]
+
+[doubao]
+display_name = "豆包"
+regions = ["cn-mainland"]
+windows = ["Doubao.exe"]
+android = ["com.larus.nova"]
+
+[zhipu-qingyan]
+display_name = "智谱清言"
+regions = ["cn-mainland"]
+android = ["com.zhipuai.qingyan"]
+
+[kimi]
+display_name = "Kimi"
+regions = ["cn-mainland"]
+android = ["com.moonshot.kimichat"]
+
+[tencent-yuanbao]
+display_name = "腾讯元宝"
+regions = ["cn-mainland"]
+android = ["com.tencent.hunyuan.app.chat"]
+
+[wenxin]
+display_name = "文心"
+regions = ["cn-mainland"]
+android = ["com.baidu.newapp"]
+
+[iflytek-spark]
+display_name = "讯飞星火"
+regions = ["cn-mainland"]
+android = ["com.iflytek.spark"]

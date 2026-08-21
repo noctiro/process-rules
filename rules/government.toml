@@ -1,0 +1,31 @@
+version = 1
+
+[individual-income-tax]
+display_name = "个人所得税"
+regions = ["cn-mainland"]
+android = ["cn.gov.tax.its"]
+
+[national-healthcare-service]
+display_name = "国家医保服务平台"
+regions = ["cn-mainland"]
+android = ["cn.hsa.app"]
+
+[traffic-management-12123]
+display_name = "交管12123"
+regions = ["cn-mainland"]
+android = ["com.tmri.app.main"]
+
+[zhangshang-12333]
+display_name = "掌上12333"
+regions = ["cn-mainland"]
+android = ["com.ylzinfo.chinahrss"]
+
+[state-council]
+display_name = "国务院"
+regions = ["cn-mainland"]
+android = ["com.gov.cn"]
+
+[electronic-tax-bureau]
+display_name = "电子税务局"
+regions = ["cn-mainland"]
+android = ["cn.gov.chinatax.gt4.app"]

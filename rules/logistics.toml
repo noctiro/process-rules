@@ -1,0 +1,41 @@
+version = 1
+
+[cainiao]
+display_name = "菜鸟裹裹"
+regions = ["cn-mainland"]
+android = ["com.cainiao.wireless"]
+
+[huolala]
+display_name = "货拉拉"
+regions = ["cn-mainland"]
+android = ["com.lalamove.huolala.client"]
+
+[sf-express]
+display_name = "顺丰速运"
+regions = ["cn-mainland"]
+android = ["com.sf.activity"]
+
+[hive-box]
+display_name = "丰巢"
+regions = ["cn-mainland"]
+android = ["com.fcbox.hiveconsumer"]
+
+[zto-express]
+display_name = "中通快递"
+regions = ["cn-mainland"]
+android = ["com.zto.main"]
+
+[yto-express]
+display_name = "圆通速递"
+regions = ["cn-mainland"]
+android = ["com.yto56.ytoexpress"]
+
+[sto-express]
+display_name = "申通快递"
+regions = ["cn-mainland"]
+android = ["com.sto.express"]
+
+[yunda-express]
+display_name = "韵达速递"
+regions = ["cn-mainland"]
+android = ["com.yunda.app"]

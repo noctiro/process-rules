@@ -1,0 +1,151 @@
+version = 1
+
+[easinote]
+display_name = "希沃白板5"
+regions = ["cn-mainland"]
+windows = ["EasiNote.exe", "EasiNote.AppHost.exe", "EasiNote.Mirror.exe", "EasiNote.MediaHttpService.exe", "EasiNote.FirewallRepair.exe", "EasiNote.OfficeDocumentConverter.exe", "EasiNote.RemoteProcess.exe", "EasiNote.UpdateFix.exe", "EasiAgent.exe", "EasiUpdate.exe", "EasiUpdate3.exe", "swenlauncher.exe", "SeewoUploadService.exe", "SeewoP2P.exe", "Cvte.MediaUtility.exe", "Cvte.Hotspot.Win10Hotspot.exe", "swenserver.exe"]
+
+[xuexi-qiangguo]
+display_name = "学习强国"
+regions = ["cn-mainland"]
+android = ["cn.xuexi.android"]
+
+[baidu-wenku]
+display_name = "百度文库"
+regions = ["cn-mainland"]
+android = ["com.baidu.wenku"]
+
+[youdao-dictionary]
+display_name = "网易有道词典"
+regions = ["cn-mainland"]
+android = ["com.youdao.dict"]
+
+[baicizhan]
+display_name = "百词斩"
+regions = ["cn-mainland"]
+android = ["com.jiongji.andriod.card"]
+
+[zuoyebang]
+display_name = "作业帮"
+regions = ["cn-mainland"]
+android = ["com.baidu.homework"]
+
+[xiaoyuan-search]
+display_name = "小猿搜题"
+regions = ["cn-mainland"]
+android = ["com.fenbi.android.solar"]
+
+[xiaoyuan-arithmetic]
+display_name = "小猿口算"
+regions = ["cn-mainland"]
+android = ["com.fenbi.android.leo"]
+
+[kuaidui]
+display_name = "快对"
+regions = ["cn-mainland"]
+android = ["com.kuaiduizuoye.scan"]
+
+[cctalk]
+display_name = "CCtalk"
+regions = ["cn-mainland"]
+android = ["com.hujiang.cctalk"]
+
+[dedao]
+display_name = "得到"
+regions = ["cn-mainland"]
+android = ["com.luojilab.player"]
+
+[chaoxing]
+display_name = "超星学习通"
+regions = ["cn-mainland"]
+android = ["com.chaoxing.mobile"]
+
+[icourse]
+display_name = "中国大学MOOC"
+regions = ["cn-mainland"]
+android = ["com.netease.edu.ucmooc"]
+
+[netease-open-course]
+display_name = "网易公开课"
+regions = ["cn-mainland"]
+android = ["com.netease.vopen"]
+
+[fenbi]
+display_name = "粉笔"
+regions = ["cn-mainland"]
+android = ["com.fenbi.android.servant"]
+
+[yuanfudao]
+display_name = "猿辅导"
+regions = ["cn-mainland"]
+android = ["com.yuantiku.tutor"]
+
+[xueersi]
+display_name = "学而思网校"
+regions = ["cn-mainland"]
+android = ["com.xueersi.parentsmeeting"]
+
+[gaotu]
+display_name = "高途"
+regions = ["cn-mainland"]
+android = ["com.gaotu100.superclass"]
+
+[youdao-course]
+display_name = "有道精品课"
+regions = ["cn-mainland"]
+android = ["com.youdao.course"]
+
+[driving-test-bible]
+display_name = "驾考宝典"
+regions = ["cn-mainland"]
+android = ["com.handsgo.jiakao.android"]
+
+[jxedt]
+display_name = "驾校一点通"
+regions = ["cn-mainland"]
+android = ["com.jxedt"]
+
+[shanbay-words]
+display_name = "扇贝单词"
+regions = ["cn-mainland"]
+android = ["com.shanbay.words"]
+
+[maimemo]
+display_name = "墨墨背单词"
+regions = ["cn-mainland"]
+android = ["com.maimemo.android.momo"]
+
+[bubei-words]
+display_name = "不背单词"
+regions = ["cn-mainland"]
+android = ["cn.com.langeasy.LangEasyLexis"]
+
+[hujiang-words]
+display_name = "沪江开心词场"
+regions = ["cn-mainland"]
+android = ["com.hujiang.hjwordgames"]
+
+[daily-english-listening]
+display_name = "每日英语听力"
+regions = ["cn-mainland"]
+android = ["com.eusoft.ting.en"]
+
+[liulishuo]
+display_name = "英语流利说"
+regions = ["cn-mainland"]
+android = ["com.liulishuo.engzo"]
+
+[daomeng-space]
+display_name = "到梦空间"
+regions = ["cn-mainland"]
+android = ["com.jingcai.apps.qualitydev"]
+
+[xuexiaoyi]
+display_name = "学小易"
+regions = ["cn-mainland"]
+android = ["com.xuexiaoyi.xxy"]
+
+[zebra-ai]
+display_name = "斑马AI学"
+regions = ["cn-mainland"]
+android = ["com.fenbi.android.zenglish"]

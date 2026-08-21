@@ -1,0 +1,256 @@
+version = 1
+
+[taobao]
+display_name = "淘宝"
+regions = ["cn-mainland"]
+android = ["com.taobao.taobao"]
+
+[jd]
+display_name = "京东"
+regions = ["cn-mainland"]
+android = ["com.jingdong.app.mall"]
+
+[pinduoduo]
+display_name = "拼多多"
+regions = ["cn-mainland"]
+android = ["com.xunmeng.pinduoduo"]
+
+[meituan]
+display_name = "美团"
+regions = ["cn-mainland"]
+android = ["com.sankuai.meituan"]
+
+[suning]
+display_name = "苏宁易购"
+regions = ["cn-mainland"]
+android = ["com.suning.mobile.ebuy"]
+
+[xianyu]
+display_name = "闲鱼"
+regions = ["cn-mainland"]
+android = ["com.taobao.idlefish"]
+
+[meituan-takeout]
+display_name = "美团外卖"
+regions = ["cn-mainland"]
+android = ["com.sankuai.meituan.takeoutnew"]
+
+[starbucks-china]
+display_name = "星巴克中国"
+regions = ["cn-mainland"]
+android = ["com.starbucks.cn"]
+
+[tmall]
+display_name = "天猫"
+regions = ["cn-mainland"]
+android = ["com.tmall.wireless"]
+
+[vipshop]
+display_name = "唯品会"
+regions = ["cn-mainland"]
+android = ["com.achievo.vipshop"]
+
+[dewu]
+display_name = "得物"
+regions = ["cn-mainland"]
+android = ["com.shizhuang.duapp"]
+
+[zhuanzhuan]
+display_name = "转转"
+regions = ["cn-mainland"]
+android = ["com.wuba.zhuanzhuan"]
+
+[smzdm]
+display_name = "什么值得买"
+regions = ["cn-mainland"]
+android = ["com.smzdm.client.android"]
+
+[eleme]
+display_name = "淘宝闪购"
+regions = ["cn-mainland"]
+android = ["me.ele"]
+
+[dianping]
+display_name = "大众点评"
+regions = ["cn-mainland"]
+android = ["com.dianping.v1"]
+
+[hema]
+display_name = "盒马"
+regions = ["cn-mainland"]
+android = ["com.wudaokou.hippo"]
+
+[xiaoxiang-supermarket]
+display_name = "小象超市"
+regions = ["cn-mainland"]
+android = ["com.meituan.retail.v.android"]
+
+[kfc-china]
+display_name = "肯德基"
+regions = ["cn-mainland"]
+android = ["com.yek.android.kfc.activitys"]
+
+[mcdonalds-china]
+display_name = "麦当劳"
+regions = ["cn-mainland"]
+android = ["com.mcdonalds.gma.cn"]
+
+[luckin-coffee]
+display_name = "瑞幸咖啡"
+regions = ["cn-mainland"]
+android = ["com.lucky.luckyclient"]
+
+[taote]
+display_name = "淘特"
+regions = ["cn-mainland"]
+android = ["com.taobao.litetao"]
+
+[jd-daojia]
+display_name = "京东到家"
+regions = ["cn-mainland"]
+android = ["com.jingdong.pdj"]
+
+[mogujie]
+display_name = "蘑菇街"
+regions = ["cn-mainland"]
+android = ["com.mogujie"]
+
+[sams-club]
+display_name = "山姆会员商店"
+regions = ["cn-mainland"]
+android = ["cn.samsclub.app"]
+
+[maoyan]
+display_name = "猫眼"
+regions = ["cn-mainland"]
+android = ["com.sankuai.movie"]
+
+[taopiaopiao]
+display_name = "淘票票"
+regions = ["cn-mainland"]
+android = ["com.taobao.movie.android"]
+
+[damai]
+display_name = "大麦"
+regions = ["cn-mainland"]
+android = ["cn.damai"]
+
+[ziroom]
+display_name = "自如"
+regions = ["cn-mainland"]
+android = ["com.ziroom.ziroomcustomer"]
+
+[wuba]
+display_name = "58同城"
+regions = ["cn-mainland"]
+android = ["com.wuba"]
+
+[alibaba-1688]
+display_name = "1688"
+regions = ["cn-mainland"]
+android = ["com.alibaba.wireless"]
+
+[xiaomi-store]
+display_name = "小米商城"
+regions = ["cn-mainland"]
+android = ["com.xiaomi.shop"]
+
+[oppo-store]
+display_name = "OPPO商城"
+regions = ["cn-mainland"]
+android = ["com.oppo.store"]
+
+[douyin-mall]
+display_name = "抖音商城"
+regions = ["cn-mainland"]
+android = ["com.ss.android.ugc.livelite"]
+
+[china-mobile]
+display_name = "中国移动"
+regions = ["cn-mainland"]
+android = ["com.greenpoint.android.mc10086.activity"]
+
+[china-unicom]
+display_name = "中国联通"
+regions = ["cn-mainland"]
+android = ["com.sinovatech.unicom.ui"]
+
+[china-telecom]
+display_name = "中国电信"
+regions = ["cn-mainland"]
+android = ["com.ct.client"]
+
+[state-grid]
+display_name = "网上国网"
+regions = ["cn-mainland"]
+android = ["com.sgcc.wsgw.cn"]
+
+[dingdong]
+display_name = "叮咚买菜"
+regions = ["cn-mainland"]
+android = ["com.yaya.zone"]
+
+[pupu]
+display_name = "朴朴"
+regions = ["cn-mainland"]
+android = ["com.pupumall.customer"]
+
+[yonghui-life]
+display_name = "永辉生活"
+regions = ["cn-mainland"]
+android = ["cn.yonghui.hyd"]
+
+[dmall]
+display_name = "多点"
+regions = ["cn-mainland"]
+android = ["com.wm.dmall"]
+
+[walmart-china]
+display_name = "沃尔玛"
+regions = ["cn-mainland"]
+android = ["cn.walmart.app"]
+
+[pizza-hut-china]
+display_name = "必胜客"
+regions = ["cn-mainland"]
+android = ["com.yumc.phsuperapp"]
+
+[mixue]
+display_name = "蜜雪冰城"
+regions = ["cn-mainland"]
+android = ["com.mxbc.mxsa"]
+
+[diantao]
+display_name = "点淘"
+regions = ["cn-mainland"]
+android = ["com.taobao.live"]
+
+[jd-lite]
+display_name = "京东极速版"
+regions = ["cn-mainland"]
+android = ["com.jd.jdlite"]
+
+[meituan-youxuan]
+display_name = "美团优选"
+regions = ["cn-mainland"]
+android = ["com.sankuai.youxuan"]
+
+[yanxuan]
+display_name = "网易严选"
+regions = ["cn-mainland"]
+android = ["com.netease.yanxuan"]
+
+[xiaomi-youpin]
+display_name = "小米有品"
+regions = ["cn-mainland"]
+android = ["com.xiaomi.youpin"]
+
+[vmall]
+display_name = "华为商城"
+regions = ["cn-mainland"]
+android = ["com.vmall.client"]
+
+[shihuo]
+display_name = "识货"
+regions = ["cn-mainland"]
+android = ["com.hupu.shihuo"]

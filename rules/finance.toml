@@ -1,0 +1,206 @@
+version = 1
+
+[alipay]
+display_name = "支付宝"
+regions = ["cn-mainland"]
+android = ["com.eg.android.AlipayGphone"]
+
+[alipay-hk]
+display_name = "AlipayHK"
+regions = ["hk"]
+android = ["hk.alipay.wallet"]
+
+[jd-finance]
+display_name = "京东金融"
+regions = ["cn-mainland"]
+android = ["com.jd.jrapp"]
+
+[unionpay]
+display_name = "云闪付"
+regions = ["cn-mainland"]
+android = ["com.unionpay"]
+
+[icbc]
+display_name = "中国工商银行"
+regions = ["cn-mainland"]
+android = ["com.icbc"]
+
+[abc]
+display_name = "中国农业银行"
+regions = ["cn-mainland"]
+android = ["com.android.bankabc"]
+
+[ccb]
+display_name = "中国建设银行"
+regions = ["cn-mainland"]
+android = ["com.chinamworld.main"]
+
+[boc]
+display_name = "中国银行"
+regions = ["cn-mainland"]
+android = ["com.chinamworld.bocmbci"]
+
+[cmb]
+display_name = "招商银行"
+regions = ["cn-mainland"]
+android = ["cmb.pb"]
+
+[cmb-life]
+display_name = "掌上生活"
+regions = ["cn-mainland"]
+android = ["com.cmbchina.ccd.pluto.cmbActivity"]
+
+[bank-of-communications]
+display_name = "交通银行"
+regions = ["cn-mainland"]
+android = ["com.bankcomm.Bankcomm"]
+
+[bankcomm-credit-card]
+display_name = "买单吧"
+regions = ["cn-mainland"]
+android = ["com.bankcomm.maidanba"]
+
+[citic-bank]
+display_name = "中信银行"
+regions = ["cn-mainland"]
+android = ["com.ecitic.bank.mobile"]
+
+[citic-credit-card]
+display_name = "动卡空间"
+regions = ["cn-mainland"]
+android = ["com.citiccard.mobilebank"]
+
+[psbc-credit-card]
+display_name = "邮储信用卡"
+regions = ["cn-mainland"]
+android = ["com.yitong.mbank.psbc.creditcard"]
+
+[icbc-e-life]
+display_name = "工银e生活"
+regions = ["cn-mainland"]
+android = ["com.icbc.elife"]
+
+[cmb-corporate-bank]
+display_name = "招行企业银行"
+regions = ["cn-mainland"]
+android = ["com.cmb.ubank.UBUI"]
+
+[aibank]
+display_name = "中信百信银行"
+regions = ["cn-mainland"]
+android = ["com.baixin.mobilebank"]
+
+[bestpay]
+display_name = "翼支付"
+regions = ["cn-mainland"]
+android = ["com.chinatelecom.bestpayclient"]
+
+[hebao]
+display_name = "和包"
+regions = ["cn-mainland"]
+android = ["com.cmcc.hebao"]
+
+[suishouji]
+display_name = "随手记"
+regions = ["cn-mainland"]
+android = ["com.mymoney"]
+
+[ths]
+display_name = "同花顺"
+regions = ["cn-mainland"]
+android = ["com.hexin.plat.android"]
+
+[eastmoney]
+display_name = "东方财富"
+regions = ["cn-mainland"]
+android = ["com.eastmoney.android.berlin"]
+
+[xueqiu]
+display_name = "雪球"
+regions = ["cn-mainland"]
+android = ["com.xueqiu.android"]
+
+[dazhihui]
+display_name = "大智慧"
+regions = ["cn-mainland"]
+android = ["com.android.dazhihui"]
+
+[eastmoney-fund]
+display_name = "天天基金"
+regions = ["cn-mainland"]
+android = ["com.eastmoney.android.fund"]
+
+[ant-fortune]
+display_name = "蚂蚁财富"
+regions = ["cn-mainland"]
+android = ["com.antfortune.wealth"]
+
+[digital-rmb]
+display_name = "数字人民币"
+regions = ["cn-mainland"]
+android = ["cn.gov.pbc.dcep"]
+
+[ping-an-bank]
+display_name = "平安口袋银行"
+regions = ["cn-mainland"]
+android = ["com.pingan.paces.ccms"]
+
+[spdb]
+display_name = "浦发银行"
+regions = ["cn-mainland"]
+android = ["cn.com.spdb.mobilebank.per"]
+
+[cmbc]
+display_name = "民生银行"
+regions = ["cn-mainland"]
+android = ["cn.com.cmbc.newmbank"]
+
+[cib]
+display_name = "兴业银行"
+regions = ["cn-mainland"]
+android = ["com.cib.cibmb"]
+
+[cebbank]
+display_name = "光大银行"
+regions = ["cn-mainland"]
+android = ["com.cebbank.mobile.cemb"]
+
+[hxb]
+display_name = "华夏银行"
+regions = ["cn-mainland"]
+android = ["com.hxb.mobile.client"]
+
+[cgb]
+display_name = "广发银行"
+regions = ["cn-mainland"]
+android = ["com.cgbchina.xpt"]
+
+[bank-of-shanghai]
+display_name = "上海银行"
+regions = ["cn-mainland"]
+android = ["cn.com.shbank.mper"]
+
+[ping-an-life]
+display_name = "平安金管家"
+regions = ["cn-mainland"]
+android = ["com.pingan.lifeinsurance"]
+
+[duxiaoman]
+display_name = "度小满金融"
+regions = ["cn-mainland"]
+android = ["com.duxiaoman.wallet"]
+
+[fenqile]
+display_name = "分期乐"
+regions = ["cn-mainland"]
+android = ["com.fenqile.fenqile"]
+
+[tongdaxin]
+display_name = "通达信"
+regions = ["cn-mainland"]
+android = ["com.tdx.AndroidNew"]
+
+[essence-securities]
+display_name = "安信手机证券"
+regions = ["cn-mainland"]
+android = ["cn.com.essence.stock"]

@@ -1,0 +1,115 @@
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Install Rust MSRV
+        run: rustup toolchain install 1.98.0 --profile minimal --component rustfmt,clippy
+
+      - name: Select Rust MSRV
+        run: rustup default 1.98.0
+
+      - name: Verify release source
+        run: |
+          cargo fmt --check
+          cargo clippy --locked --all-targets --all-features -- -D warnings
+          cargo test --locked --all-features
+          cargo run --locked -- validate --require-non-empty
+
+  create-release:
+    needs: verify
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Create GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if ! gh release view "$GITHUB_REF_NAME" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release create "$GITHUB_REF_NAME" --repo "$GITHUB_REPOSITORY" --verify-tag --generate-notes --draft --title "$GITHUB_REF_NAME"
+          fi
+
+  binaries:
+    needs: create-release
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: ubuntu-latest
+            platform: linux
+          - os: windows-latest
+            platform: windows
+          - os: macos-latest
+            platform: macos
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 20
+    env:
+      PROCESS_RULES_SOURCE_COMMIT: ${{ github.sha }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Install Rust MSRV
+        run: rustup toolchain install 1.98.0 --profile minimal
+
+      - name: Select Rust MSRV
+        run: rustup default 1.98.0
+
+      - name: Build release binary
+        run: cargo build --locked --release
+
+      - name: Package and upload Unix binary
+        if: runner.os != 'Windows'
+        shell: bash
+        run: |
+          package="process-rules-${{ matrix.platform }}"
+          mkdir "$package"
+          cp target/release/process-rules README.md LICENSE "$package/"
+          cp -R rules "$package/"
+          tar -czf "$package.tar.gz" "$package"
+          gh release upload "$GITHUB_REF_NAME" "$package.tar.gz" --repo "$GITHUB_REPOSITORY" --clobber
+
+      - name: Package and upload Windows binary
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: |
+          $package = "process-rules-${{ matrix.platform }}"
+          New-Item -ItemType Directory -Path $package
+          Copy-Item target/release/process-rules.exe,README.md,LICENSE -Destination $package
+          Copy-Item rules -Destination $package -Recurse
+          Compress-Archive -Path "$package/*" -DestinationPath "$package.zip"
+          gh release upload $env:GITHUB_REF_NAME "$package.zip" --repo $env:GITHUB_REPOSITORY --clobber
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+
+      - name: Generate and upload rule archive
+        if: runner.os == 'Linux'
+        shell: bash
+        run: |
+          cargo run --locked --release -- build-all --out-dir generated --require-non-empty
+          cp README.md generated/README.md
+          cp LICENSE generated/LICENSE
+          tar --sort=name --mtime=@0 --owner=0 --group=0 --numeric-owner -czf process-rules-data.tar.gz -C generated .
+          gh release upload "$GITHUB_REF_NAME" process-rules-data.tar.gz --repo "$GITHUB_REPOSITORY" --clobber
+
+  publish-release:
+    needs: binaries
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Publish completed GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release edit "$GITHUB_REF_NAME" --repo "$GITHUB_REPOSITORY" --draft=false

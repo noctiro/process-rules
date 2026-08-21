@@ -1,0 +1,311 @@
+version = 1
+
+[qq-music]
+display_name = "QQ音乐"
+regions = ["cn-mainland"]
+android = ["com.tencent.qqmusic"]
+
+[kugou-music]
+display_name = "酷狗音乐"
+regions = ["cn-mainland"]
+android = ["com.kugou.android"]
+
+[wesing]
+display_name = "全民K歌"
+regions = ["cn-mainland"]
+android = ["com.tencent.karaoke"]
+
+[kuwo-music]
+display_name = "酷我音乐"
+regions = ["cn-mainland"]
+android = ["cn.kuwo.player"]
+
+[xiami-music]
+display_name = "虾米音乐"
+regions = ["cn-mainland"]
+android = ["fm.xiami.main"]
+
+[changba]
+display_name = "唱吧"
+regions = ["cn-mainland"]
+android = ["com.changba"]
+
+[netease-cloud-music]
+display_name = "网易云音乐"
+regions = ["cn-mainland"]
+android = ["com.netease.cloudmusic"]
+
+[ximalaya]
+display_name = "喜马拉雅"
+regions = ["cn-mainland"]
+android = ["com.ximalaya.ting.android"]
+
+[douyin]
+display_name = "抖音"
+regions = ["cn-mainland"]
+android = ["com.ss.android.ugc.aweme"]
+
+[tiktok-asia]
+display_name = "TikTok 亚洲版"
+regions = ["bn", "id", "jp", "kh", "kr", "la", "my", "ph", "sg", "th", "tw", "vn"]
+android = ["com.ss.android.ugc.trill"]
+
+[tiktok-global]
+display_name = "TikTok 全球版"
+regions = { except = ["cn-mainland", "hk"] }
+android = ["com.zhiliaoapp.musically"]
+
+[kuaishou]
+display_name = "快手"
+regions = ["cn-mainland"]
+android = ["com.smile.gifmaker"]
+
+[bilibili]
+display_name = "哔哩哔哩"
+regions = ["cn-mainland"]
+android = ["tv.danmaku.bili"]
+
+[xigua-video]
+display_name = "西瓜视频"
+regions = ["cn-mainland"]
+android = ["com.ss.android.article.video"]
+
+[huya]
+display_name = "虎牙直播"
+regions = ["cn-mainland"]
+android = ["com.duowan.kiwi"]
+
+[douyu]
+display_name = "斗鱼"
+regions = ["cn-mainland"]
+android = ["air.tv.douyu.android"]
+
+[tencent-video]
+display_name = "腾讯视频"
+regions = ["cn-mainland"]
+android = ["com.tencent.qqlive"]
+
+[iqiyi]
+display_name = "爱奇艺"
+regions = ["cn-mainland"]
+android = ["com.qiyi.video"]
+
+[youku]
+display_name = "优酷"
+regions = ["cn-mainland"]
+android = ["com.youku.phone"]
+
+[mango-tv]
+display_name = "芒果TV"
+regions = ["cn-mainland"]
+android = ["com.hunantv.imgo.activity"]
+
+[migu-video]
+display_name = "咪咕视频"
+regions = ["cn-mainland"]
+android = ["com.cmcc.cmvideo"]
+
+[soda-music]
+display_name = "汽水音乐"
+regions = ["cn-mainland"]
+android = ["com.luna.music"]
+
+[qingting-fm]
+display_name = "蜻蜓FM"
+regions = ["cn-mainland"]
+android = ["fm.qingting.qtradio"]
+
+[toutiao]
+display_name = "今日头条"
+regions = ["cn-mainland"]
+android = ["com.ss.android.article.news"]
+
+[tencent-news]
+display_name = "腾讯新闻"
+regions = ["cn-mainland"]
+android = ["com.tencent.news"]
+
+[netease-news]
+display_name = "网易新闻"
+regions = ["cn-mainland"]
+android = ["com.netease.newsreader.activity"]
+
+[wechat-reading]
+display_name = "微信读书"
+regions = ["cn-mainland"]
+android = ["com.tencent.weread"]
+
+[ireader]
+display_name = "掌阅"
+regions = ["cn-mainland"]
+android = ["com.chaozh.iReaderFree"]
+
+[qidian]
+display_name = "起点读书"
+regions = ["cn-mainland"]
+android = ["com.qidian.QDReader"]
+
+[tomato-novel]
+display_name = "番茄免费小说"
+regions = ["cn-mainland"]
+android = ["com.dragon.read"]
+
+[qimao]
+display_name = "七猫免费小说"
+regions = ["cn-mainland"]
+android = ["com.kmxs.reader"]
+
+[qq-reading]
+display_name = "QQ阅读"
+regions = ["cn-mainland"]
+android = ["com.qq.reader"]
+
+[douban-reading]
+display_name = "豆瓣阅读"
+regions = ["cn-mainland"]
+android = ["com.douban.book.reader"]
+
+[hongxiu-reading]
+display_name = "红袖读书"
+regions = ["cn-mainland"]
+android = ["com.hongxiu.app"]
+
+[hongguo-short-drama]
+display_name = "红果免费短剧"
+regions = ["cn-mainland"]
+android = ["com.phoenix.read"]
+
+[tencent-comics]
+display_name = "腾讯漫画"
+regions = ["cn-mainland"]
+android = ["com.qq.ac.android"]
+
+[douyin-lite]
+display_name = "抖音极速版"
+regions = ["cn-mainland"]
+android = ["com.ss.android.ugc.aweme.lite"]
+
+[douyin-huoshan]
+display_name = "抖音火山版"
+regions = ["cn-mainland"]
+android = ["com.ss.android.ugc.live"]
+
+[kuaishou-lite]
+display_name = "快手极速版"
+regions = ["cn-mainland"]
+android = ["com.kuaishou.nebula"]
+
+[tencent-weishi]
+display_name = "腾讯微视"
+regions = ["cn-mainland"]
+android = ["com.tencent.weishi"]
+
+[iqiyi-lite]
+display_name = "爱奇艺极速版"
+regions = ["cn-mainland"]
+android = ["com.qiyi.video.lite"]
+
+[sohu-video]
+display_name = "搜狐视频"
+regions = ["cn-mainland"]
+android = ["com.sohu.sohuvideo"]
+
+[haokan-video]
+display_name = "好看视频"
+regions = ["cn-mainland"]
+android = ["com.baidu.haokan"]
+
+[kugou-concept]
+display_name = "酷狗概念版"
+regions = ["cn-mainland"]
+android = ["com.kugou.android.lite"]
+
+[tomato-listen]
+display_name = "番茄畅听"
+regions = ["cn-mainland"]
+android = ["com.xs.fm"]
+
+[tomato-listen-music]
+display_name = "番茄畅听音乐版"
+regions = ["cn-mainland"]
+android = ["com.xs.fm.lite"]
+
+[xiaoyuzhou]
+display_name = "小宇宙"
+regions = ["cn-mainland"]
+android = ["app.podcast.cosmos"]
+
+[toutiao-lite]
+display_name = "今日头条极速版"
+regions = ["cn-mainland"]
+android = ["com.ss.android.article.lite"]
+
+[36kr]
+display_name = "36氪"
+regions = ["cn-mainland"]
+android = ["com.android36kr.app"]
+
+[yangshipin]
+display_name = "央视频"
+regions = ["cn-mainland"]
+android = ["com.cctv.yangshipin.app.androidp"]
+
+[cctv-news]
+display_name = "央视新闻"
+regions = ["cn-mainland"]
+android = ["cn.cntvnews"]
+
+[cntv]
+display_name = "央视影音"
+regions = ["cn-mainland"]
+android = ["cn.cntv"]
+
+[peoples-daily]
+display_name = "人民日报"
+regions = ["cn-mainland"]
+android = ["com.peopledailychina.activity"]
+
+[xinhua-news]
+display_name = "新华社"
+regions = ["cn-mainland"]
+android = ["net.xinhuamm.mainclient"]
+
+[the-paper]
+display_name = "澎湃新闻"
+regions = ["cn-mainland"]
+android = ["com.wondertek.paper"]
+
+[ifeng-news]
+display_name = "凤凰新闻"
+regions = ["cn-mainland"]
+android = ["com.ifeng.news2"]
+
+[sohu-news]
+display_name = "搜狐新闻"
+regions = ["cn-mainland"]
+android = ["com.sohu.newsclient"]
+
+[jiemian-news]
+display_name = "界面新闻"
+regions = ["cn-mainland"]
+android = ["com.jiemian.news"]
+
+[yicai]
+display_name = "第一财经"
+regions = ["cn-mainland"]
+android = ["com.yicai.news"]
+
+[hupu]
+display_name = "虎扑"
+regions = ["cn-mainland"]
+android = ["com.hupu.games"]
+
+[dongqiudi]
+display_name = "懂球帝"
+regions = ["cn-mainland"]
+android = ["com.dongqiudi.news"]
+
+[zhibo8]
+display_name = "直播吧"
+regions = ["cn-mainland"]
+android = ["cn.zhibo8.android"]

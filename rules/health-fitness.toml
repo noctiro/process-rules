@@ -1,0 +1,26 @@
+version = 1
+
+[keep]
+display_name = "Keep"
+regions = ["cn-mainland"]
+android = ["com.gotokeep.keep"]
+
+[codoon]
+display_name = "咕咚"
+regions = ["cn-mainland"]
+android = ["com.codoon.gps"]
+
+[joyrun]
+display_name = "悦跑圈"
+regions = ["cn-mainland"]
+android = ["co.runner.app"]
+
+[jd-health]
+display_name = "京东健康"
+regions = ["cn-mainland"]
+android = ["com.jd.jdhealth"]
+
+[haodf]
+display_name = "好大夫在线"
+regions = ["cn-mainland"]
+android = ["com.haodf.android"]

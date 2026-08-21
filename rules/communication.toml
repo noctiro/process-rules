@@ -1,0 +1,107 @@
+version = 1
+
+[wechat]
+display_name = "WeChat"
+regions = ["cn-mainland"]
+windows = ["Weixin.exe", "WeChat.exe", "WeChatAppEx.exe", "WeChatAppExPlugin.exe"]
+android = ["com.tencent.mm"]
+linux = ["wechat", "WeChatAppEx", "wxplayer", "wxocr", "wxutility"]
+
+[qq]
+display_name = "QQ"
+regions = ["cn-mainland"]
+windows = ["QQ.exe", "QQEX.exe", "QQScreenshot.exe"]
+android = ["com.tencent.mobileqq"]
+linux = ["qq"]
+
+[dingtalk]
+display_name = "钉钉"
+regions = ["cn-mainland"]
+windows = ["DingTalk.exe", "DingTalkBackstage.exe", "DingTalkCheck.exe", "DingTalkUpdater.exe", "DingtalkLauncher.exe", "DingtalkScheme.exe", "DingtalkCleaner.exe", "DingTalkSnippingTool.exe", "DingTalkSupportTool.exe", "DingtalkElevate.exe"]
+android = ["com.alibaba.android.rimet"]
+
+[xiaohongshu]
+display_name = "小红书"
+regions = ["cn-mainland"]
+android = ["com.xingin.xhs"]
+
+[weibo]
+display_name = "微博"
+regions = ["cn-mainland"]
+android = ["com.sina.weibo"]
+
+[feishu]
+display_name = "飞书"
+regions = ["cn-mainland"]
+android = ["com.ss.android.lark"]
+linux = ["bytedance-feishu", "feishu"]
+
+[wecom]
+display_name = "企业微信"
+regions = ["cn-mainland"]
+android = ["com.tencent.wework"]
+
+[momo]
+display_name = "MOMO陌陌"
+regions = ["cn-mainland"]
+android = ["com.immomo.momo"]
+
+[soul]
+display_name = "Soul"
+regions = ["cn-mainland"]
+android = ["cn.soulapp.android"]
+
+[qzone]
+display_name = "QQ空间"
+regions = ["cn-mainland"]
+android = ["com.qzone"]
+
+[tantan]
+display_name = "探探"
+regions = ["cn-mainland"]
+android = ["com.p1.mobile.putong"]
+
+[zhihu]
+display_name = "知乎"
+regions = ["cn-mainland"]
+android = ["com.zhihu.android"]
+
+[douban]
+display_name = "豆瓣"
+regions = ["cn-mainland"]
+android = ["com.douban.frodo"]
+
+[coolapk]
+display_name = "酷安"
+regions = ["cn-mainland"]
+android = ["com.coolapk.market"]
+
+[baidu-tieba]
+display_name = "百度贴吧"
+regions = ["cn-mainland"]
+android = ["com.baidu.tieba"]
+
+[jianshu]
+display_name = "简书"
+regions = ["cn-mainland"]
+android = ["com.jianshu.haruki"]
+
+[tencent-meeting]
+display_name = "腾讯会议"
+regions = ["cn-mainland"]
+android = ["com.tencent.wemeet.app"]
+
+[qq-mail]
+display_name = "QQ邮箱"
+regions = ["cn-mainland"]
+android = ["com.tencent.androidqqmail"]
+
+[netease-mail-master]
+display_name = "网易邮箱大师"
+regions = ["cn-mainland"]
+android = ["com.netease.mail"]
+
+[baidu-zhidao]
+display_name = "百度知道"
+regions = ["cn-mainland"]
+android = ["com.baidu.iknow"]
