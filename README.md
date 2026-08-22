@@ -53,3 +53,7 @@ rules:
 当前文件及其 SHA-256 校验值见 [`manifest.json`（GitHub Raw）](https://raw.githubusercontent.com/noctiro/process-rules/generated/manifest.json)或 [`manifest.json`（jsDelivr）](https://cdn.jsdelivr.net/gh/noctiro/process-rules@generated/manifest.json)。固定版本见 [Releases](https://github.com/noctiro/process-rules/releases)。
 
 规则只使用能够唯一归属到具体软件的进程名和 Android 包名。提交规则见 [贡献者指南](CONTRIBUTING.md)。代码、规则数据和生成文件采用 [GNU GPLv3 或更高版本](LICENSE)。
+
+## 感谢
+
+感谢 [Mihomo](https://github.com/MetaCubeX/mihomo) 项目、[Linux.do 论坛](https://linux.do/) 及所有为本规则库贡献代码、规则和建议的参与者。
