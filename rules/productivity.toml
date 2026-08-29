@@ -14,6 +14,7 @@ android = ["com.mfcloudcalculate.networkdisk"]
 [wps-office]
 display_name = "WPS Office"
 regions = ["cn-mainland"]
+windows = ["wps.exe", "wpscloudsvr.exe", "ksolaunch.exe", "wpsupdate.exe", "wpscli.exe"]
 android = ["cn.wps.moffice_eng"]
 linux = ["wps"]
 

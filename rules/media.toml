@@ -8,6 +8,7 @@ android = ["com.tencent.qqmusic"]
 [kugou-music]
 display_name = "酷狗音乐"
 regions = ["cn-mainland"]
+windows = ["KuGou.exe"]
 android = ["com.kugou.android"]
 
 [wesing]
@@ -63,6 +64,7 @@ android = ["com.smile.gifmaker"]
 [bilibili]
 display_name = "哔哩哔哩"
 regions = ["cn-mainland"]
+windows = ["哔哩哔哩.exe"]
 android = ["tv.danmaku.bili"]
 
 [xigua-video]
