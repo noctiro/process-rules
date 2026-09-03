@@ -10,7 +10,7 @@ linux = ["wechat", "WeChatAppEx", "wxplayer", "wxocr", "wxutility"]
 [qq]
 display_name = "QQ"
 regions = ["cn-mainland"]
-windows = ["QQ.exe", "QQEX.exe", "QQScreenshot.exe"]
+windows = ["QQ.exe", "QQEX.exe", "QQScreenshot.exe", "QQPCRTP.exe", "QQPcTray.exe"]
 android = ["com.tencent.mobileqq"]
 linux = ["qq"]
 
