@@ -6,6 +6,7 @@ regions = ["cn-mainland"]
 windows = ["Weixin.exe", "WeChat.exe", "WeChatAppEx.exe", "WeChatAppExPlugin.exe"]
 android = ["com.tencent.mm"]
 linux = ["wechat", "WeChatAppEx", "wxplayer", "wxocr", "wxutility"]
+macos = ["WeChat", "WeChatAppEx", "WeChatAppEx Helper", "WeChatFileProviderExtension", "WeChatHelper", "WeChatMacShare", "wxplayer"]
 
 [qq]
 display_name = "QQ"
@@ -13,6 +14,7 @@ regions = ["cn-mainland"]
 windows = ["QQ.exe", "QQEX.exe", "QQScreenshot.exe", "QQPCRTP.exe", "QQPcTray.exe"]
 android = ["com.tencent.mobileqq"]
 linux = ["qq"]
+macos = ["QQ", "QQ Helper", "QQ Login Helper", "QQ ScreenCapture plugin", "QQEXDesktopPet", "QQEXDesktopPet Helper", "QQEXDOC", "QQEXDOC Helper", "QQEXGuild", "QQEXGuild Helper", "QQEXMiniProgram", "QQEXMiniProgram Helper", "QQHelper"]
 
 [dingtalk]
 display_name = "钉钉"
