@@ -435,3 +435,18 @@ android = ["com.bandainamcoent.idolmaster_gakuen"]
 display_name = "ワールドダイスター 夢のステラリウム"
 regions = ["jp"]
 android = ["com.kms.worlddaistar"]
+
+[call-of-duty-mobile]
+display_name = "使命召唤手游"
+regions = ["cn-mainland"]
+android = ["com.tencent.tmgp.cod"]
+
+[taptap]
+display_name = "TapTap"
+regions = ["cn-mainland"]
+android = ["com.taptap"]
+
+[nearme-game-center]
+display_name = "游戏中心"
+regions = ["cn-mainland"]
+android = ["com.nearme.gamecenter"]

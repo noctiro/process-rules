@@ -122,3 +122,8 @@ android = ["com.tencent.qqfile"]
 display_name = "微软OfficePLUS"
 regions = ["cn-mainland"]
 windows = ["MSOfficePLUSService.exe"]
+
+[heytap-cloud]
+display_name = "云服务"
+regions = ["cn-mainland"]
+android = ["com.heytap.cloud"]

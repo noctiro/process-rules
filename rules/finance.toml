@@ -204,3 +204,8 @@ android = ["com.tdx.AndroidNew"]
 display_name = "安信手机证券"
 regions = ["cn-mainland"]
 android = ["cn.com.essence.stock"]
+
+[jiujiang-bank]
+display_name = "九江银行"
+regions = ["cn-mainland"]
+android = ["com.jjccb.mobilebank"]

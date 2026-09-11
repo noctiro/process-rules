@@ -159,3 +159,18 @@ android = ["com.fltrp.organ.student"]
 display_name = "人教口语"
 regions = ["cn-mainland"]
 android = ["com.gumi.spokenenglish"]
+
+[chsi]
+display_name = "学信网"
+regions = ["cn-mainland"]
+android = ["cn.com.chsi.chsiapp"]
+
+[zhidao]
+display_name = "知到"
+regions = ["cn-mainland"]
+android = ["com.able.wisdomtree"]
+
+[huixueche]
+display_name = "慧学车极速版"
+regions = ["cn-mainland"]
+android = ["com.hz.jps"]

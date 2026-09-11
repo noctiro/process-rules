@@ -311,3 +311,8 @@ android = ["com.dongqiudi.news"]
 display_name = "直播吧"
 regions = ["cn-mainland"]
 android = ["cn.zhibo8.android"]
+
+[bilibili-live-companion]
+display_name = "哔哩哔哩直播姬"
+regions = ["cn-mainland"]
+android = ["com.bilibili.bilibililive"]

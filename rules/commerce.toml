@@ -254,3 +254,8 @@ android = ["com.vmall.client"]
 display_name = "识货"
 regions = ["cn-mainland"]
 android = ["com.hupu.shihuo"]
+
+[realme-store]
+display_name = "realme商城"
+regions = ["cn-mainland"]
+android = ["com.realme.storecn"]

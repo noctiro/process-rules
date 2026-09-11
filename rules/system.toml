@@ -13,7 +13,7 @@ android = ["com.baidu.input"]
 [sogou-input-method]
 display_name = "搜狗输入法"
 regions = ["cn-mainland"]
-android = ["com.sohu.inputmethod.sogou"]
+android = ["com.sohu.inputmethod.sogou", "com.sohu.inputmethod.sogouoem"]
 
 [tencent-app-store]
 display_name = "腾讯应用宝"
@@ -90,3 +90,18 @@ android = ["com.baidu.duer.superapp"]
 display_name = "萤石云视频"
 regions = ["cn-mainland"]
 android = ["com.videogo"]
+
+[realme-app-store]
+display_name = "软件商店"
+regions = ["cn-mainland"]
+android = ["com.heytap.market"]
+
+[realme-theme-store]
+display_name = "主题商店"
+regions = ["cn-mainland"]
+android = ["com.heytap.themestore"]
+
+[realme-link]
+display_name = "realme Link"
+regions = ["cn-mainland"]
+android = ["com.realme.linkcn"]
